@@ -17,12 +17,12 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <Preference
+    <com.android.settings.applications.LayoutPreference
         android:key="miscellaneous_category"
         android:fragment="com.codeos.configs.fragments.Miscellaneous"
         android:layout="@layout/miscellaneous" />
 
-    <Preference
+    <com.android.settings.applications.LayoutPreference
         android:key="powermenu_category"
         android:fragment="com.codeos.configs.fragments.PowerMenu"
         android:layout="@layout/powermenu" />
